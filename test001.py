@@ -96,7 +96,7 @@ def generate_image(output_dxf_1):
     # 5. create an A4 page layout
     page = layout.Page(297, 210, layout.Units.mm, margins=layout.Margins.all(20))
     # 6. get the PNG rendering as bytes
-    png_bytes = backend.get_pixmap_bytes(page, fmt="png", dpi=1000)
+    png_bytes = backend.get_pixmap_bytes(page, fmt="png", dpi=200)
 
     # Tạo hình ảnh với Pillow
     image = Image.open(io.BytesIO(png_bytes))
