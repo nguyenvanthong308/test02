@@ -12,3 +12,4 @@ fpdf
 canvas
 ezdxf
 qsketchmetric
+PyMuPDF
