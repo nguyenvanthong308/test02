@@ -10,6 +10,5 @@ Pillow
 datetime
 fpdf
 canvas
-io
 ezdxf
 qsketchmetric
